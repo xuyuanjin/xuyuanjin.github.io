@@ -9,6 +9,7 @@ title: Learning Scala
 <p class="meta">04 Jan 2014 - Beijing, China</p>
 
 * use function as parameter
+        look at an example
         {% highlight scala %}
         def a(f:() => Unit)=f()
         a(()=>println("hi echo"))
