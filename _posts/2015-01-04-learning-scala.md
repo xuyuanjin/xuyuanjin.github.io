@@ -9,7 +9,7 @@ title: Learning Scala
 <p class="meta">04 Jan 2014 - Beijing, China</p>
 
 1. use function as parameter
-{% highlight scala %}
+> {% highlight scala %}
 def a(f:() => Unit)=f()
 a(()=>println("hi echo"))
 {% endhighlight %}
