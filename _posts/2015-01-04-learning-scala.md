@@ -9,9 +9,9 @@ title: Learning Scala
 <p class="meta">04 Jan 2014 - Beijing, China</p>
 
 * use function as parameter
-
+    
 ```scala
-def a(f:() => Unit)=f();
+def a(f:() => Unit)=f()
 a(()=>println("hi echo"))
 ```
 * Scala don't support i++ and ++i
