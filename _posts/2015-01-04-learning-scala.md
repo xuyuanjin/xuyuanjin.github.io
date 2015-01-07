@@ -9,10 +9,9 @@ title: Learning Scala
 <p class="meta">04 Jan 2014 - Beijing, China</p>
 
 * use function as parameter
-&nbsp; &nbsp; {% highlight scala %}
-def a(f:() => Unit)=f()
-a(()=>println("hi echo"))
-{% endhighlight %}
+
+        def a(f:() => Unit)=f()
+        a(()=>println("hi echo"))
 
 * Scala don't support i++ and ++i
 * Array is mutable，List and Tuple are not; only Tuples can contain different types of elements.
